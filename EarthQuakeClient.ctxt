@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=EarthQuakeClient
+comment0.text=\r\n\ Use\ EarthQuakeParser\ class\ and\ various\ Filter\ classes\ to\ read\ in\ earthquake\ data\r\n\ from\ an\ external\ source\ and\ perform\ various\ filtering\ tasks\r\n\ @author\:\ Kristen\ Phan\ (https\://github.com/kristenphan)\r\n\ @version\:\ Nov\ 18,\ 2020\r\n
+comment1.params=source
+comment1.target=java.util.ArrayList\ readData(java.lang.String)
+comment1.text=\r\n\ Read\ data\ from\ a\ data\ source\ and\ return\ an\ ArrayList\ of\ <QuakeEntry>\ quakeData\r\n
+comment2.params=quakeData\ f
+comment2.target=java.util.ArrayList\ filter(java.util.ArrayList,\ Filter)
+comment2.text=\r\n\ Return\ an\ ArrayList\ of\ QuakeEntry's\ containing\ all\ QuakeEntry's\ from\ @param\ quakeData\r\n\ which\ satisfy\ @param\ Filter\ f\ condition\r\n
+comment3.params=
+comment3.target=void\ applyFilters()
+comment3.text=\r\n\ Apply\ multiple\ filters\ to\ quakeData\ by\ calling\ MatchAllFilters\ class\ \r\n\ and\ print\ the\ result\r\n
+comment4.params=
+comment4.target=void\ createCSV()
+comment4.text=\r\n\ Call\ dumpCSV()\ method\ to\ create\ a\ CSV\ file\r\n
+comment5.params=list
+comment5.target=void\ dumpCSV(java.util.ArrayList)
+comment5.text=\r\n\ Write\ into\ a\ CSV\ file\ from\ an\ ArrayList\r\n
+numComments=6

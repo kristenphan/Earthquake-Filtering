@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ClosestQuakes
+comment1.params=quakeData\ current\ howMany
+comment1.target=java.util.ArrayList\ getClosest(java.util.ArrayList,\ Location,\ int)
+comment1.text=\r\n\ Return\ an\ ArrayList\ of\ N-cloest\ earthquakes\ (@param\ howMany)\ to\ a\ location\ (@param\ current)\r\n\ The\ earthquakes\ should\ be\ in\ the\ ArrayList\ in\ order\ with\ the\ closest\ earthquake\ in\ index\ position\ 0.\ \ \r\n\ If\ there\ are\ fewer\ then\ howMany\ earthquakes\ in\ quakeData,\ \r\n\ then\ the\ ArrayList\ returned\ would\ be\ the\ same\ size\ as\ quakeData.\ \r\n
+comment2.params=
+comment2.target=void\ findClosestQuakes()
+comment2.text=\r\n\ Call\ getCloest()\ method\ to\ find\ N-closet\ earthquakes\ to\ a\ specific\ location\r\n
+numComments=3

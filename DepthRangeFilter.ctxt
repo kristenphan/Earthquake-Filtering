@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DepthRangeFilter
+comment0.text=\r\n\ Implement\ the\ Filter\ interface\ to\ filter\ earthquake\ data\ based\ on\ a\ depth\ range,\ inclusive\r\n\ @assignment\ desc\:\ https\://www.coursera.org/learn/java-programming-design-principles/supplement/3RkuE/programming-exercise-searching-earthquake-data\r\n\ @author\:\ Kristen\ Phan\ (https\://github.com/kristenphan)\r\n\ @verion\:\ Nov\ 18,\ 2020\r\n
+comment1.params=min\ max
+comment1.target=DepthRangeFilter(double,\ double)
+comment2.params=qe
+comment2.target=boolean\ satisfies(QuakeEntry)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+numComments=4
